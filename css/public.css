@@ -1,0 +1,21 @@
+a,div,p,input,span,h1{
+    margin:0;
+    padding: 0;
+}
+body{
+    background:#ebf9ff;
+    font-family: "helvetica neue",arial,sans-serif;
+    font-size: 14px;
+    color: #444;
+    overflow-x: hidden;
+    widows: 1349px;
+}
+.wrapper{
+    width: 1160px;
+    position: relative;
+    margin: 0 auto;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}

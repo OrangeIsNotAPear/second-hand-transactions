@@ -1,0 +1,102 @@
+#header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #02b5cc;
+    height: 48px;
+    width: 100%;
+}
+.menu_bar{
+    height: 48px;
+    text-align: center;
+}
+/* 导航栏左边菜单 */
+.menu_bar .menu_left{
+    float: left;
+    margin-top:10px;
+    line-height: 26px;
+}
+.menu_left .menu_logo{
+    float: left;
+    margin-right: 20px;
+    margin-top:-3px;
+    width: 100px;
+    height: 35px;
+    font-size:24px;
+}
+.menu_left .item{
+    position: relative;
+    float: left;
+    line-height: 28px;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.menu_left a:hover{
+    color:red;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+/* 导航栏右边登录注册 */
+.menu_bar .menu_right{
+    float: right;
+    margin-left: 23px;
+}
+.menu_right .login_reg{
+    display: inline-block;
+    line-height: 37px;
+}
+.login_reg .login{
+    padding: 0 15px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 2px;
+}
+.btn{
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 14px;
+    background: #fafafa;
+    border: 1px solid #02b5cc;
+    color: #0a8494;
+    text-align: center;
+    box-shadow: 0 0 0 transparent;
+}
+.login_reg .register{
+    padding: 0 15px;
+    height: 32px;
+    line-height: 32px;
+}
+.login_reg .rbtn{
+    background: #0a8494;
+    color: #fff;
+}
+.login_reg .login:hover{
+    opacity: 0.9;
+}
+.login_reg .register:hover{
+    opacity: 0.9;
+}
+/* 导航栏中间搜索框 */
+.menu_bar .menu_center{
+    float: none;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #bbb;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+.menu_center .search{
+    display: inline-block;
+    border: 0;
+    background-color: transparent;
+    padding-left:10px;
+    height: 35px;
+    width: 100%;
+}

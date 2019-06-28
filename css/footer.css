@@ -1,0 +1,54 @@
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #02b5cc;
+    height: 225px;
+    width: 100%;
+}
+.footer_main{
+    width: 1040px;
+    height: 160px;
+    margin: 0 auto;
+}
+.footer_logo{
+    width: 270px;
+    height: 160px;
+}
+.footer_desc{
+    width: 299px;
+    height: 68px;
+}
+.footer_download{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.download_part{
+    margin-right: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.top_part{
+    margin-bottom: 5px;
+    display: block;
+    width: 200px;
+    height: 62px;
+}
+.buttom_part{
+    display: block;
+    width: 200px;
+    height: 62px;
+}
+.download_code{
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,.8);
+}
+.code{
+    
+}
