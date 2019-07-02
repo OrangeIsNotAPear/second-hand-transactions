@@ -1,0 +1,82 @@
+.main{
+    margin-top:20px;
+}
+.banner_wrap{
+    width: 100%;
+    height: 354px;
+    background-color: #0a8494;
+    margin-bottom: 30px;
+}
+.main_wrap{
+    height: 100%;
+    width: 1040px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(//img.alicdn.com/tfs/TB1ij9qnPDpK1RjSZFrXXa78VXa-1040-354.png);
+}
+.navbar_wrap{
+    width: 1040px;
+    flex-direction: row;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 62px;
+    height: 30px;
+    margin-left: 67px;
+}
+.usercard_wrap{
+    width: 310px;
+    height: 239px;
+    position: absolute;
+    right: 19px;
+    border-radius: 10px;
+    background-color: #fff;
+    bottom: 14px;
+}
+.unlogin{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.icon{
+    margin: 0 auto;
+    margin-top: 46px;
+    margin-bottom: 18px;
+    height: 70px;
+    width:70px;
+}
+.btn_wrap{
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+.register,.login{
+    width: 108px;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+.login_btn{
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 14px;
+    background: #fafafa;
+    border: 1px solid #02b5cc;
+    color: #0a8494;
+    text-align: center;
+    box-shadow: 0 0 0 transparent;
+}
+.register_btn{
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 14px;
+    border: 1px solid #02b5cc;
+    background: #0a8494;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0 transparent;
+}
