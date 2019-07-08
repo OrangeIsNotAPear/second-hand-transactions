@@ -9,10 +9,10 @@
 }
 .main_wrap{
     height: 100%;
-    width: 1040px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
-    background-image: url(//img.alicdn.com/tfs/TB1ij9qnPDpK1RjSZFrXXa78VXa-1040-354.png);
+    background-image: url("/second-hand-transactions/img/beijing1.png");
 }
 /* 主页面图片背景 */
 .navbar_wrap{
@@ -24,8 +24,8 @@
     justify-content: space-between;
 }
 .logo{
-    width: 62px;
-    height: 30px;
+    width: 140px;
+    height: 133px;
     margin-left: 67px;
 }
 .usercard_wrap{
