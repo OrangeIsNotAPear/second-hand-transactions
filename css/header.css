@@ -17,7 +17,7 @@
 }
 .menu_left .menu_logo{
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top:-3px;
     width: 100px;
     height: 35px;
@@ -55,12 +55,12 @@ div>ul>li{
     position:relative;
 }
 div>ul>li:nth-child(1),div>ul>li:nth-child(2){
-    width:40px;
+    width:45px;
 }
 div>ul>.item{
     color: #0a8494;
 }
-div>ul>li:nth-child(2)>ul,div>ul>li:nth-child(3)>ul,div>ul>li:nth-child(4)>ul,div>ul>li:nth-child(6)>ul{
+div>ul>li:nth-child(2)>ul,div>ul>li:nth-child(3)>ul,div>ul>li:nth-child(4)>ul,div>ul>li:nth-child(6)>ul,div>ul>li:nth-child(7)>ul{
     top: 33px;
     height: 0px;
     opacity: 0;
@@ -69,40 +69,32 @@ div>ul>li:nth-child(2)>ul,div>ul>li:nth-child(3)>ul,div>ul>li:nth-child(4)>ul,di
 }
 div>ul>li>ul{
     background-color: #fff; 
-    width: 120px; 
+    width: 80px; 
     border: 1px solid rgb(239,239,239);
     border-top: 0;
     position: absolute;
     left: 0;
 }
-div>ul>li:nth-child(2)>ul>li:first-child {
+div>ul>li:nth-child(2)>ul>li:first-child,div>ul>li:nth-child(3)>ul>li:first-child,div>ul>li:nth-child(4)>ul>li:first-child,div>ul>li:nth-child(6)>ul>li:first-child,div>ul>li:nth-child(7)>ul>li:first-child{
     height: 23px;
 }
-div>ul>li:nth-child(3)>ul>li:first-child {
-    height: 43px;
-}
-div>ul>li:nth-child(4)>ul>li:first-child {
-    height: 43px;
-}
-div>ul>li:nth-child(6)>ul>li:first-child {
-    height: 83px;
-}
+
 div>ul>li>ul>li{
     display: block;
     background-color: #fff;
     text-align: left;
-    padding-left: 30px;
-    width: 90px;
+    padding-left: 18px;
+    width: 60px;
     height: 25px;
     line-height: 25px;
 }
 div>ul>li:nth-child(2):hover>ul{
     opacity:1;
-    height:60px;
+    height:80px;
 }
 div>ul>li:nth-child(3):hover>ul{
     opacity:1;
-    height:80px;
+    height:60px;
 }
 div>ul>li:nth-child(4):hover>ul{
     opacity:1;
@@ -110,7 +102,11 @@ div>ul>li:nth-child(4):hover>ul{
 }
 div>ul>li:nth-child(6):hover>ul{
     opacity:1;
-    height:120px;
+    height:180px;
+}
+div>ul>li:nth-child(7):hover>ul{
+    opacity:1;
+    height:80px;
 }
 
 
@@ -172,8 +168,26 @@ div>ul>li:nth-child(6):hover>ul{
 .menu_center .search{
     display: inline-block;
     border: 0;
+    padding-left: 10px;
     background-color: transparent;
-    padding-left:10px;
     height: 35px;
     width: 100%;
+}
+.center_input{
+    width: 85%;
+    display: inline-block;
+}
+.search_btn{
+    display: inline-block;
+    font-size: 14px;
+    width: 69px;
+    padding: 7px 0;
+    height: 19px;
+    background: #0a8494;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0 transparent;
+}
+.search_btn:hover{
+    opacity: 0.8;
 }

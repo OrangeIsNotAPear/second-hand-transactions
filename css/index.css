@@ -12,7 +12,7 @@
     width: 100%;
     margin: 0 auto;
     position: relative;
-    background-image: url("/second-hand-transactions/img/beijing1.png");
+    background-image: url("/img/beijing1.png");
 }
 /* 主页面图片背景 */
 .navbar_wrap{
@@ -141,7 +141,7 @@
     justify-content: space-between;
 }
 .tabbar_wrap .item{
-    cursor: pointer;
+    padding-top: 10px;
     margin-right: 40px;
     height: 33px;
     align-items: center;
@@ -150,20 +150,20 @@
     color: #222;
     font-size: 16px;
 }
-.tabbar_wrap .line{
-    width: 100%;
-    height: 2px;
-    margin-top: 4px;
-    background-color: #222;
+.tabbar_wrap .name:hover{
+    color: #fff;
 }
+
 /* 商品列表 */
 .item_list{
+    position: relative;
     margin: 0 auto;
     width: 1040px;
     min-height: 680px;
     margin-bottom: 20px;
 }
 .item_list .item_list_wrap{
+    position: absolute;
     display: flex;
     width: 1050px;
     flex-direction: row;
@@ -254,4 +254,38 @@
     height: 17px;
     width: 80px;
     line-height: 17px;
+}
+#d1:target,#d2:target{
+    z-index:1;
+}
+
+/* 分页页码 */
+/* 设置页面整体布局 */
+.page_icon{
+    margin: 20px 0 0 0;
+    font-size: 0;
+    text-align: center;
+}
+/* a标签样式布局 */
+.page_icon a,.page_disabled,.page_next{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 4px 10px 5px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.page_icon a{
+    color: #0a8494;
+}
+.page_current{
+    color: #0a8494;
+    padding: 4px 10px 5px;
+    font-size: 14px;
+}
+.page_disabled{
+    color: #ccc;
+}
+.page_icon a:hover,.page_next:hover{
+    background-color: #0a8494;
+    color: #fff;
 }
