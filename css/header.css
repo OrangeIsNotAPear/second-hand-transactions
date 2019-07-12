@@ -12,9 +12,8 @@
 }
 /* 导航栏左边菜单 */
 .menu_bar .menu_left{
-    float: left;
-    margin-top:10px;
     line-height: 26px;
+    margin-top:15px;
 }
 .menu_left .menu_logo{
     float: left;
@@ -22,27 +21,104 @@
     margin-top:-3px;
     width: 100px;
     height: 35px;
-    font-size:24px;
+    font-size:34px;
+    color: #fff;
 }
 .menu_left .item{
+    font-weight: bold;
     position: relative;
     float: left;
     line-height: 28px;
     color: #fff;
-    margin-right: 15px;
     cursor: pointer;
+    font-size: 14px;
 }
-.menu_left a:hover{
-    color:red;
+.menu_left .item:hover,.menu_left>ul>li>ul>li a:hover{
+    color:#0a8494;
 }
 a{
-    color: #fff;
     text-decoration: none;
 }
+.menu_left>ul>li>ul>li a{
+    font-size: 12px;
+    color: #333;
+}
+ul{
+    list-style: none;
+}
+div>ul>li{
+    float:left;
+    width:75px; height:23px;
+    border-width:10px 1px 10px 0;
+    text-align:center;
+    line-height:15px;
+    position:relative;
+}
+div>ul>li:nth-child(1),div>ul>li:nth-child(2){
+    width:40px;
+}
+div>ul>.item{
+    color: #0a8494;
+}
+div>ul>li:nth-child(2)>ul,div>ul>li:nth-child(3)>ul,div>ul>li:nth-child(4)>ul,div>ul>li:nth-child(6)>ul{
+    top: 33px;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+div>ul>li>ul{
+    background-color: #fff; 
+    width: 120px; 
+    border: 1px solid rgb(239,239,239);
+    border-top: 0;
+    position: absolute;
+    left: 0;
+}
+div>ul>li:nth-child(2)>ul>li:first-child {
+    height: 23px;
+}
+div>ul>li:nth-child(3)>ul>li:first-child {
+    height: 43px;
+}
+div>ul>li:nth-child(4)>ul>li:first-child {
+    height: 43px;
+}
+div>ul>li:nth-child(6)>ul>li:first-child {
+    height: 83px;
+}
+div>ul>li>ul>li{
+    display: block;
+    background-color: #fff;
+    text-align: left;
+    padding-left: 30px;
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+}
+div>ul>li:nth-child(2):hover>ul{
+    opacity:1;
+    height:60px;
+}
+div>ul>li:nth-child(3):hover>ul{
+    opacity:1;
+    height:80px;
+}
+div>ul>li:nth-child(4):hover>ul{
+    opacity:1;
+    height:80px;
+}
+div>ul>li:nth-child(6):hover>ul{
+    opacity:1;
+    height:120px;
+}
+
+
 /* 导航栏右边登录注册 */
 .menu_bar .menu_right{
     float: right;
     margin-left: 23px;
+    margin-top: -8px;
 }
 .menu_right .login_reg{
     display: inline-block;
@@ -81,11 +157,12 @@ a{
 }
 /* 导航栏中间搜索框 */
 .menu_bar .menu_center{
-    float: none;
+    float: right;
+    width: 40%;
     overflow: hidden;
     position: relative;
     height: 32px;
-    margin-top: 6px;
+    margin-top: -8px;
     font-size: 14px;
     color: #bbb;
     background: #fafafa;

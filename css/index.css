@@ -218,12 +218,14 @@
     color: #f44;
     height: 14px;
     line-height: 22px; 
+    display: inline-block;
 }
 .item_list .price_value{
     font-size: 16px;
     color: #f44;
     height: 18px;
     line-height: 18px; 
+    display: inline-block;
 }
 .user_line{
     display: flex;

@@ -1,4 +1,4 @@
-a,div,p,input,span,h1,body,img{
+a,div,p,input,span,h1,body,img,ul,li{
     margin:0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body{
     widows: 1349px;
 }
 .wrapper{
-    width: 1160px;
+    width: 1220px;
     position: relative;
     margin: 0 auto;
     border: 0;
