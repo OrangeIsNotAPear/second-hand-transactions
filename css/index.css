@@ -28,14 +28,15 @@
     height: 133px;
     margin-left: 67px;
 }
+/* 登录卡片 */
 .usercard_wrap{
     width: 310px;
     height: 239px;
     position: absolute;
-    right: 19px;
+    right: 60px;
     border-radius: 10px;
     background-color: #fff;
-    bottom: 14px;
+    bottom: 15px;
 }
 .unlogin{
     justify-content: center;
@@ -80,6 +81,12 @@
     color: #fff;
     text-align: center;
     box-shadow: 0 0 0 transparent;
+}
+.login_btn:hover{
+    background: #ccc;
+    opacity: 0.4;
+}.register_btn:hover{
+    opacity: 0.8;
 }
 /* 闲置发布栏 */
 .slodbar_wrap{
@@ -153,7 +160,6 @@
 .tabbar_wrap .name:hover{
     color: #fff;
 }
-
 /* 商品列表 */
 .item_list{
     position: relative;
@@ -262,7 +268,7 @@
 /* 分页页码 */
 /* 设置页面整体布局 */
 .page_icon{
-    margin: 20px 0 0 0;
+    margin: 20px 0 30px 0;
     font-size: 0;
     text-align: center;
 }

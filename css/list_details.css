@@ -1,0 +1,217 @@
+.main{
+    width: 1070px;
+    color: black;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/* 页面卖家信息 */
+.main_header{
+    width: 100%;
+    color: black;
+    height: 70px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 2px solid #333;
+}
+/* 卖家信息左边头像及详细信息 */
+.main_header .header_left{
+    float: left;
+    width: 245px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+.header_left .user_card{
+    padding: 23px;
+    position: relative;
+}
+.user_card .uaer_name{
+    color: #333;
+}
+.user_card .uaer_name:hover{
+    text-decoration-line: underline;
+}
+.header_left:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+}
+/* 卖家信息模块 */
+.user_card .user_detail{
+    width: 244px;
+    position: absolute;
+    height: 210px;
+    top: 70px;
+    left: 0px;
+    line-height: 18px;
+    background: #fff;
+    border: 1px solid #E7E7E7;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+}
+.user_card:hover>.user_detail{
+    opacity: 1;
+}
+.user_detail a,h4,.parameter,p,hr{
+    margin-left: 20px;
+}
+.user_detail p{
+    padding-top: 10px;
+}
+.user_detail h4{
+    font-size: 12px;
+}
+.user_detail ul{
+    list-style: none;
+}
+.user_detail ul>li{
+    margin-bottom: 10px;
+}
+.user_detail .btn{
+    background-color: #0a8494;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0;
+    border: 0;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+}
+.user_detail .btn:hover{
+    opacity: 0.9;
+}
+/* 卖家信息中间部分 */
+.main_header .header_center{
+    float: left;
+    width: 315px;
+    height: 100%;
+}
+.header_center .center_ul{
+    list-style: none;
+}
+.center_ul_li{
+    float: left;
+    height: 40px;
+    text-align: center;
+    margin-left: 28px;
+    margin-top: 17px;
+}
+.center_ul_li:first-child,.center_ul_li:last-child{
+    border-right: 1px dotted #ccc;
+    padding-right: 26px;
+}
+.center_ul_li>h5{
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+}
+/* 右边部分 */
+.main_header .header_right{
+    float: right;
+    width: 300px;
+    height: 100%;
+}
+.header_right>.right_report{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #333;
+}
+.right_report:hover{
+    text-decoration-line: underline;
+    color: red;
+}
+/* 商品详情主体 */
+.main_body{
+    margin-top: 15px;
+    width: 100%;
+    color: black;
+    height: 900px;
+}
+/* 左边商品图片及评价 */
+.main_body .body_left{
+    width: 670px;
+    float: left;
+    color: black;
+    height: 850px;
+}
+.body_left>.left_top_img{
+    width: 670px;
+    height: 580px;
+    border: 1px solid #333;
+}
+.left_top_img>.top_lg_img{
+    width: 670px;
+    height: 480px;
+    border: 1px solid #333;
+    text-align: center;
+}
+.bg_img{
+    max-width: 670px;
+    max-height: 480px;
+}
+.left_top_img>.top_sm_img{
+    margin-top: 10px;
+    width: 670px;
+    height: 86px;
+    border: 1px solid #333;
+}
+.top_sm_ul{
+    width: 670px;
+    height: 86px;
+    list-style: none;
+}
+.top_ul_li{
+    float: left;
+    width: 86px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+.sm_img{
+    max-width: 76px;
+    max-height: 58px; 
+}
+.body_left>.left_bottom_card{
+    margin-top: 10px;
+    width: 670px;
+    height: 206px;
+    border: 1px solid #333;
+}
+.card_li{
+    float: left; 
+    list-style: none;
+    border: 1px solid #ccc;
+}
+.card_li a{
+    display:inline-block;
+    text-decoration:none;
+    width: 80px; height: 40px;
+    line-height: 40px;
+	text-align: center;
+    color:#000;
+}
+#content{
+	position: relative;
+}
+#content1,#content2,#content3{
+	width: 300px;
+	height: 100px;
+	padding:30px;
+	position: absolute;
+    top: 754px;
+    left: 49px;
+}
+
+.main_body .body_right{
+    width: 390px;
+    float: right;
+    background: #00ccff;
+    height: 850px;
+}
