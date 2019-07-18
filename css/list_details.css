@@ -1,7 +1,7 @@
 .main{
     width: 1070px;
     color: black;
-    height: 1000px;
+    height: 1200px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -131,14 +131,14 @@
     margin-top: 15px;
     width: 100%;
     color: black;
-    height: 900px;
+    height: 1100px;
 }
 /* 左边商品图片及评价 */
 .main_body .body_left{
     width: 670px;
     float: left;
     color: black;
-    height: 850px;
+    height: 1050px;
 }
 .body_left>.left_top_img{
     width: 670px;
@@ -181,26 +181,36 @@
 .body_left>.left_bottom_card{
     margin-top: 10px;
     width: 670px;
-    height: 206px;
+    height: 406px;
     border: 1px solid #333;
+}
+.card_ul{
+    border-bottom: 4px solid #0a8494;
+    height: 40px;
 }
 .card_li{
     float: left; 
     list-style: none;
-    border: 1px solid #ccc;
 }
 .card_li a{
     display:inline-block;
     text-decoration:none;
-    width: 80px; height: 40px;
-    line-height: 40px;
+    width: 100px; height: 40px;
+    line-height: 48px;
 	text-align: center;
     color:#000;
 }
-#content{
+.card_ul>.active>a{
+    background: #0a8494;
+    color: #fff;
+}
+.security-tip,.bottom_content{
+    margin: 15px;
+}
+.bottom_content{
 	position: relative;
 }
-#content1,#content2,#content3{
+.content1,.content2,.content3{
 	width: 300px;
 	height: 100px;
 	padding:30px;
