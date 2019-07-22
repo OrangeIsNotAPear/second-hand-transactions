@@ -1,0 +1,15 @@
+.bg{
+    width: 1349px;
+    height: 500px;
+    background-image: url("/img/bg.png");
+    border: 1px solid red;
+}
+.bg .t_wrap{
+    width: 500px;
+    height: 400px;
+    background: #fff;
+    float: right;
+    margin-top: 20px;
+    margin-right: 200px;
+    border-shadow: 5px #ccc;
+}

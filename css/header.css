@@ -221,15 +221,17 @@ div>ul>li:nth-child(7):hover>ul{
 .fade{ /*定义淡入淡出动画的初始状态,常驻元素*/
     width: 300px;
     height: 350px;
-    top: 30%;
+    /* top: 30%;
     left: 50%;
     margin-top: -110px;
-    margin-left: -210px;
+    margin-left: -210px; */
+    float: left;
+    margin-top: 1%;
+    margin-left: 42%;
     /* display: none; */
     opacity: 0;
-    transition: all .1s linear;
 }
-.in{ /*定义淡入淡出动画的结束状态*/
+#header>.in{ /*定义淡入淡出动画的结束状态*/
     width: 300px;
     height: 350px;
     top: 30%;
@@ -243,6 +245,8 @@ div>ul>li:nth-child(7):hover>ul{
 .alert h2{
     font-size: 23px;
     margin-bottom: 15px;
+    display: inline-block;
+    margin-right: 20px;
 }
 .alert h3{
     font-size: 16px;
@@ -283,9 +287,12 @@ div>ul>li:nth-child(7):hover>ul{
     font-size: 15px;
     margin: 0 12%;
 }
-.alert li a,.alert .text_help a{
+.alert li a,.alert .text_help a,.alert .text_r{
     display: inline-block;
     color: #333;
+}
+.alert .text_r a:hover{
+    color: red;
 }
 .alert .text_help{
     float: right;
