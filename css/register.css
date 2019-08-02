@@ -1,15 +1,78 @@
 .bg{
     width: 1349px;
-    height: 500px;
+    height: 550px;
     background-image: url("/img/bg.png");
     border: 1px solid red;
 }
 .bg .t_wrap{
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
     background: #fff;
     float: right;
-    margin-top: 20px;
-    margin-right: 200px;
+    margin-top: 35px;
+    margin-right: 100px;
     border-shadow: 5px #ccc;
+    border: 1px solid #ccc;
+    background-color: #d9e7ec;
+}
+.t_wrap .r_wrap{
+    width: 570px;
+    height: 430px;
+    margin: 30px 0 0 16px; 
+    position: relative;
+}
+.r_header h3,a{
+    display: inline-block;
+    color: #333;
+    margin-bottom: 20px;
+}
+.r_header h3{
+    font-size: 18px;
+}
+.r_header a{
+    position: absolute;
+    right: 20px;
+}
+.r_wrap .item{
+    height: 60px;
+    width: 100%;
+}
+.item .r_text{
+    display: inline-block;
+    width: 90px;
+    font-size: 16px;
+    text-align: right;
+    color: #333;
+}
+.item>input{
+    padding: 12px 12px;
+    width: 240px;
+    margin-top: 12px;
+    border-radius: 2px;
+    border: none;
+}
+.item>span{
+    width: 270px;
+    color: #fff;
+    padding: 4px;
+    border-radius: 2px;
+}
+.hidden {
+    display: none;
+}
+.msg-default {
+    background-color: #999;
+}
+/* 提交信息 */
+.r_put{
+    display: block;
+    width: 263px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #0a8494;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 95px;
+    margin-top: 30px;
 }
