@@ -55,7 +55,7 @@
 .user_card:hover>.user_detail{
     opacity: 1;
 }
-.user_detail a,h4,.parameter,p,hr{
+.user_detail>a,.user_detail h4,p,hr,.parameter{
     margin-left: 20px;
 }
 .user_detail p{
@@ -139,16 +139,15 @@
     float: left;
     color: black;
     height: 1050px;
+    background-color: #fafafa;
 }
 .body_left>.left_top_img{
     width: 670px;
     height: 580px;
-    border: 1px solid #333;
 }
 .left_top_img>.top_lg_img{
     width: 670px;
     height: 480px;
-    border: 1px solid #333;
     text-align: center;
 }
 .bg_img{
@@ -159,7 +158,6 @@
     margin-top: 10px;
     width: 670px;
     height: 86px;
-    border: 1px solid #333;
 }
 .top_sm_ul{
     width: 670px;
@@ -182,7 +180,6 @@
     margin-top: 10px;
     width: 670px;
     height: 406px;
-    border: 1px solid #333;
 }
 .card_ul{
     border-bottom: 4px solid #0a8494;
@@ -210,18 +207,149 @@
 .bottom_content{
 	position: relative;
 }
-.content1,.content2,.content3{
+.content{
 	width: 300px;
 	height: 100px;
 	padding:30px;
 	position: absolute;
     top: 754px;
     left: 49px;
+    display: none;
 }
-
+.content+.disabled{
+    width: 300px;
+	height: 100px;
+	padding:30px;
+	position: absolute;
+    top: 754px;
+    left: 49px;
+}
 .main_body .body_right{
     width: 390px;
     float: right;
-    background: #00ccff;
     height: 850px;
+    background-color: #fafafa;
+}
+.body_right .top_part{
+    width: 390px;
+    float: right;
+    height: 450px;
+}
+.top_part table{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.top_part table>tbody>tr:first-child>td{
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.top_part table>tbody>tr>td{
+    font-size: 15px;
+    line-height: 30px;
+}
+.top_part table>tbody>tr:nth-child(7)>td>span{
+    color: #ccc;
+    font-size: 10px;
+}
+.top_part table>tbody>tr:nth-child(8)>td{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #0a8494;
+    border-radius: 4px;
+}
+.top_part table>tbody>tr:nth-child(8)>td>a{
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+.top_part div>a{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #E7E7E7;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-top:30px;
+    text-align: center;
+    color: #333;
+    line-height: 30px;
+}
+.top_part div>a:first-child{
+    margin-left: 50px;
+}
+
+/* 卖家其他商品 */
+.right_bottom_other{
+    width: 390px;
+    float: right;
+    height: 400px;
+    position: relative;
+}
+.right_bottom_other>h4{
+    font-size: 23px;
+    margin: 5px 0 20px 5px;
+}
+.right_bottom_other .total{
+    font-size: 23px;
+}
+.right_bottom_other .more{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #0a8494;
+    font-size: 14px;
+    font-weight: 400;
+}
+.entity ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.entity li{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.entity .item-pic{
+    border: 1px solid #ebebeb;
+    margin-left: 8px;
+}
+.entity .s-pic,.s-pic a{
+    display: block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.s-pic img{
+    max-width: 80px;
+    max-height: 80px;
+    vertical-align: middle;
+}
+.entity .item-info{
+    width: 97px;
+    position: relative;
+    margin-left: 5px;
+}
+.price-block{
+    font-size: 12px;
+    position: absolute;
+    top: 70px;
+}
+.price-block b{
+    font-weight: 400;
+    padding-left: 5px;
+    color: #999;
+}
+.item-info a{
+    color: #333;
+    font-size: 12px;
+}
+.price-block em{
+    font-weight: 700;
+    font-size: 14px;
+    color: #f40;
 }
